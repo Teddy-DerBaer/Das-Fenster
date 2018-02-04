@@ -11,6 +11,7 @@ HINSTANCE hInst;                                // Aktuelle Instanz
 WCHAR szTitle[MAX_LOADSTRING];                  // Titelleistentext
 WCHAR szWindowClass[MAX_LOADSTRING];            // Klassenname des Hauptfensters
 
+
 // Vorwärtsdeklarationen der in diesem Codemodul enthaltenen Funktionen:
 ATOM                MyRegisterClass(HINSTANCE hInstance);
 BOOL                InitInstance(HINSTANCE, int);
